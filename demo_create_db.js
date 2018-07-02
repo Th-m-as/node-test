@@ -6,7 +6,7 @@ var con = mysql.createConnection({
   password: "yourpassword"
 });
 
-console.log("Test");
+console.log("Test xy");
 
 con.connect(function(err) {
   if (err) throw err;
