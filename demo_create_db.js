@@ -8,9 +8,9 @@ var con = mysql.createConnection({
 
 console.log("Test xy");
 
-if(con.user == "hallo welt"){ 
-   
-} 
+if(con.user == "localhost"){
+  
+}
 
 con.connect(function(err) {
   if (err) throw err;
