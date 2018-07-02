@@ -8,6 +8,10 @@ var con = mysql.createConnection({
 
 console.log("Test xy");
 
+if(con.user == "hallo welt"){ 
+   
+} 
+
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
